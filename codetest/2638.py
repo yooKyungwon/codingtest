@@ -29,7 +29,7 @@ def bfs () :
         for i in range(0, 4):
             # print(i)
             nx = cx + dx[i]
-            ny = cy + dy[i]
+            ny d= cy + dy[i]
             # print( visited[nx][ny])
 
             if  0 <= nx < N  and 0 <= ny < M and visited[nx][ny] == 0  :

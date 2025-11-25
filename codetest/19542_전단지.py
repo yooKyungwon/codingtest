@@ -1,3 +1,4 @@
+#https://www.acmicpc.net/problem/19542
 import sys
 input = sys.stdin.readline # 중요 해당 코드가 없으면 시간에러 발생
 sys.setrecursionlimit(10 ** 9)

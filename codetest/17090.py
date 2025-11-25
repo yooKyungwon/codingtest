@@ -47,7 +47,7 @@ def dfs(cR, cC, path) :
 
     result = dfs(nR, nC, path)
     if result:  # 탈출 가능
-        for (x, y) in path:
+        for (x, y) in path: # path는 왜있는거지 탈출 가능하면 해당하는 x,y는 툴출 가능한 방문 케이스 기록
             visited[x][y] = 2
     else:  # 탈출 불가
         for (x, y) in path:

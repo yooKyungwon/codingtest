@@ -1,3 +1,4 @@
+#https://www.acmicpc.net/problem/1477
 import sys
 
 N, M, L = map(int, input().split())  # R, C, L
